@@ -10,6 +10,7 @@ import { BudgetsComponent } from './budgets/budgets.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { ProfileComponent } from './profile/profile.component';
 import { GoalsComponent } from './goals/goals.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GoalsComponent } from './goals/goals.component';
     BudgetsComponent,
     AccountsComponent,
     ProfileComponent,
-    GoalsComponent
+    GoalsComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
