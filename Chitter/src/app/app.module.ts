@@ -11,6 +11,8 @@ import { AccountsComponent } from './accounts/accounts.component';
 import { ProfileComponent } from './profile/profile.component';
 import { GoalsComponent } from './goals/goals.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { SettingsComponent } from './settings/settings.component';
+import { AssistanceComponent } from './assistance/assistance.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     AccountsComponent,
     ProfileComponent,
     GoalsComponent,
-    SidebarComponent
+    SidebarComponent,
+    SettingsComponent,
+    AssistanceComponent
   ],
   imports: [
     BrowserModule,

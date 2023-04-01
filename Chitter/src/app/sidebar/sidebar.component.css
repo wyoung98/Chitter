@@ -1,7 +1,7 @@
 div.tabs{
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
 }
 
 div.sidebar{
@@ -11,8 +11,9 @@ div.sidebar{
 }
 
 a{  
-    color: black;
+    color: rgb(211, 165, 80);
     font-size: 20px;
     margin-top:10px;
     text-decoration: none;
+    font-family: arial black, sans-serif;
 }
